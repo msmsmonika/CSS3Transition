@@ -1,0 +1,59 @@
+body
+{
+	background:#eee;
+	font-family:sans-serif;
+}
+.galDivWrap {
+    width: 70%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    margin-top: 79px;
+    border: 1px #c7c7c7 solid;
+}
+.galDivWrap>h2
+{
+    text-align: center;
+    font-weight: normal;
+}
+.thumbDiv {
+    width: 60%;
+    overflow: hidden;
+    height: 220px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+span.text {
+    position: absolute;
+    z-index: 2;
+    height: 70px;
+    background: rgba(25, 24, 24, 0.67);
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+        bottom:-100px;
+        -moz-transition: all 0.3s ease-in;
+-ms-transition: all 0.3s ease-in;
+-webkit-transition: all 0.3s ease-in;
+-o-transition: all 03s ease-in;
+}
+.thumbDiv:hover>.text
+{
+      bottom:0px;
+}
+.text>h2 {
+    font-size: 1.1em;
+    margin: 5%;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.text>p {
+    font-size: 0.7em;
+margin: 5%;
+margin-top: 2%;
+}
